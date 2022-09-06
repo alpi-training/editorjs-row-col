@@ -117,21 +117,22 @@ export default class TableBlock {
   renderSettings() {
     const wrapper = $.make('div', TableBlock.CSS.settingsWrapper);
 
-    const tunes = [ {
-      name: this.api.i18n.t('With headings'),
-      icon: withHeadings,
-      isActive: this.data.withHeadings,
-      setTune: () => {
-        this.data.withHeadings = true;
-      }
-    }, {
-      name: this.api.i18n.t('Without headings'),
-      icon: withoutHeadings,
-      isActive: !this.data.withHeadings,
-      setTune: () => {
-        this.data.withHeadings = false;
-      }
-    } ];
+    // const tunes = [ {
+    //   name: this.api.i18n.t('With headings'),
+    //   icon: withHeadings,
+    //   isActive: this.data.withHeadings,
+    //   setTune: () => {
+    //     this.data.withHeadings = true;
+    //   }
+    // }, {
+    //   name: this.api.i18n.t('Without headings'),
+    //   icon: withoutHeadings,
+    //   isActive: !this.data.withHeadings,
+    //   setTune: () => {
+    //     this.data.withHeadings = false;
+    //   }
+    // } ];
+    const tunes = [];
 
     tunes.forEach((tune) => {
       let tuneButton = $.make('div', this.api.styles.settingsButton);
