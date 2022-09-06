@@ -213,34 +213,34 @@ export default class Table {
       api: this.api,
       cssModifier: 'row',
       items: [
-        {
-          label: this.api.i18n.t('Add row above'),
-          icon: newToUpIcon,
-          onClick: () => {
-            this.addRow(this.selectedRow, true);
-            this.hideToolboxes();
-          }
-        },
-        {
-          label: this.api.i18n.t('Add row below'),
-          icon: newToDownIcon,
-          onClick: () => {
-            this.addRow(this.selectedRow + 1, true);
-            this.hideToolboxes();
-          }
-        },
-        {
-          label: this.api.i18n.t('Delete row'),
-          icon: closeIcon,
-          hideIf: () => {
-            return this.numberOfRows === 1;
-          },
-          confirmationRequired: true,
-          onClick: () => {
-            this.deleteRow(this.selectedRow);
-            this.hideToolboxes();
-          }
-        }
+        // {
+        //   label: this.api.i18n.t('Add row above'),
+        //   icon: newToUpIcon,
+        //   onClick: () => {
+        //     this.addRow(this.selectedRow, true);
+        //     this.hideToolboxes();
+        //   }
+        // },
+        // {
+        //   label: this.api.i18n.t('Add row below'),
+        //   icon: newToDownIcon,
+        //   onClick: () => {
+        //     this.addRow(this.selectedRow + 1, true);
+        //     this.hideToolboxes();
+        //   }
+        // },
+        // {
+        //   label: this.api.i18n.t('Delete row'),
+        //   icon: closeIcon,
+        //   hideIf: () => {
+        //     return this.numberOfRows === 1;
+        //   },
+        //   confirmationRequired: true,
+        //   onClick: () => {
+        //     this.deleteRow(this.selectedRow);
+        //     this.hideToolboxes();
+        //   }
+        // }
       ],
       onOpen: () => {
         this.selectRow(this.hoveredRow);
@@ -462,7 +462,7 @@ export default class Table {
       });
 
       this.wrapper.appendChild(addColumnButton);
-      this.wrapper.appendChild(addRowButton);
+      // this.wrapper.appendChild(addRowButton);
     }
   }
 
