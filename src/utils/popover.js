@@ -30,13 +30,13 @@ export default class Popover {
    */
   static get CSS() {
     return {
-      popover: 'tc-popover',
-      popoverOpened: 'tc-popover--opened',
-      item: 'tc-popover__item',
-      itemHidden: 'tc-popover__item--hidden',
-      itemConfirmState: 'tc-popover__item--confirm',
-      itemIcon: 'tc-popover__item-icon',
-      itemLabel: 'tc-popover__item-label'
+      popover: 'rc-popover',
+      popoverOpened: 'rc-popover--opened',
+      item: 'rc-popover__item',
+      itemHidden: 'rc-popover__item--hidden',
+      itemConfirmState: 'rc-popover__item--confirm',
+      itemIcon: 'rc-popover__item-icon',
+      itemLabel: 'rc-popover__item-label'
     };
   }
 

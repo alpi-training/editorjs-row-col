@@ -9,16 +9,16 @@ import * as $ from './utils/dom';
 import throttled from './utils/throttled';
 
 const CSS = {
-  wrapper: 'tc-wrap',
-  wrapperReadOnly: 'tc-wrap--readonly',
-  table: 'tc-table',
-  row: 'tc-row',
-  withHeadings: 'tc-table--heading',
-  rowSelected: 'tc-row--selected',
-  cell: 'tc-cell',
-  cellSelected: 'tc-cell--selected',
-  addRow: 'tc-add-row',
-  addColumn: 'tc-add-column'
+  wrapper: 'rc-wrap',
+  wrapperReadOnly: 'rc-wrap--readonly',
+  table: 'rc-table',
+  row: 'rc-row',
+  withHeadings: 'rc-table--heading',
+  rowSelected: 'rc-row--selected',
+  cell: 'rc-cell',
+  cellSelected: 'rc-cell--selected',
+  addRow: 'rc-add-row',
+  addColumn: 'rc-add-column'
 };
 
 /**

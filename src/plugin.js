@@ -86,7 +86,7 @@ export default class TableBlock {
    */
   static get CSS() {
     return {
-      settingsWrapper: 'tc-settings'
+      settingsWrapper: 'rc-settings'
     };
   }
 

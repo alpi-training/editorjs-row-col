@@ -38,9 +38,9 @@ export default class Toolbox {
    */
   static get CSS() {
     return {
-      toolbox: 'tc-toolbox',
-      toolboxShowed: 'tc-toolbox--showed',
-      toggler: 'tc-toolbox__toggler'
+      toolbox: 'rc-toolbox',
+      toolboxShowed: 'rc-toolbox--showed',
+      toggler: 'rc-toolbox__toggler'
     };
   }
 
