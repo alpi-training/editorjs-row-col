@@ -1,5 +1,5 @@
 {
-  "name": "@editorjs/row",
+  "name": "@editorjs/cols",
   "description": "Row/Col for Editor.js",
   "version": "2.0.4",
   "license": "MIT",

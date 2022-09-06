@@ -1,6 +1,7 @@
 import Table from './table';
 import tableIcon from './img/tableIcon.svg';
 import rowIcon from './img/rowIcon.svg';
+import colsIcon from './img/colsIcon.svg';
 import withHeadings from './img/with-headings.svg';
 import withoutHeadings from './img/without-headings.svg';
 import * as $ from './utils/dom';
@@ -74,8 +75,8 @@ export default class TableBlock {
    */
   static get toolbox() {
     return {
-      icon: rowIcon,
-      title: 'Row/Col'
+      icon: colsIcon,
+      title: 'Columns'
     };
   }
 
